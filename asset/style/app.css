@@ -1,0 +1,159 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  color: #fff;
+  background-color: #705C53;
+}
+
+nav {
+  position: fixed;
+  right: 0;
+  left: 0;
+  display: flex;
+  padding: 1rem 0;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #664343;
+  color: #fff;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  padding: 1rem;
+  transition: 0.4s ;
+  border-radius: 4rem;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color: #233315;
+}
+
+
+main {
+  padding-inline: 2rem;
+}
+
+main .content {
+  flex: 1;
+  display: flex;
+  gap: 5rem;
+  align-items: center;
+  height: 100vh;
+}
+
+
+.text h1{
+  font-size: 3.5rem;
+  letter-spacing: 0.2rem;
+}
+
+.text p {
+  text-align: justify;
+}
+
+.content-des  button {
+  padding: .5rem 1.5rem;
+  margin-top: 2rem;
+  background: #664343;
+  border-radius: 1rem;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.content-des  button:hover {
+  border: 2px solid #fff;
+  background: transparent;
+}
+
+.content-about {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.content-about h1 {
+  padding: 1rem;
+}
+
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.container .card {
+  width: 14rem;
+  background-color: #fff;
+  padding: 1rem;
+  text-align: center;
+  color: black;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+}
+
+.container .card img{
+  width: 200px;
+  border-radius: 1rem;
+}
+
+.kontak {
+  display: flex;
+  justify-content: center;
+}
+
+.kontak-form {
+  padding: 2rem;
+  display: flex;
+  width: 50%;
+  background: #a34b22;
+  justify-content: center;
+}
+
+.kontak-form input {
+  width: 100%;
+  border-radius: 1rem;
+}
+
+footer {
+  background: black;
+  margin-top: 3rem;
+  text-align: center;
+  padding: 2rem;
+}
+
+footer aside ul{
+  display: flex;
+  margin-top: 0.5rem;
+  justify-content: center;
+}
+ 
+footer aside ul li {
+  list-style: none;
+}
+
+footer aside ul li a {
+  text-decoration: none;
+  padding: 0.5rem;
+}
+
+
+@media  screen and (max-width:569px) {	
+ .container {
+  justify-content: center;
+ }
+}
